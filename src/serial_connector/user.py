@@ -1,4 +1,4 @@
-from interfaces import Reader, Writer
+from serial_connector.interfaces import Reader, Writer
 
 class User:
     def __init__(self, port):

@@ -1,1 +1,15 @@
 OUT_FILE = "serial_output.txt"
+
+MODE_SHELL = "shell"
+MODE_ONLY_OUT = "only-out"
+MODE_DIST = "dist"
+
+FLAG_PORT = "port"
+FLAG_BAUD = "baud"
+FLAG_MODE = "mode"
+FLAG_STOP = "stop"
+FLAG_PARITY = "parity"
+FLAG_BYTE_SIZE = "byte_size"
+FLAG_READ_TIMEOUT = "read_timeout"
+FLAG_READ_EXACT = "read_exact"
+FLAG_DECODE = "decode"

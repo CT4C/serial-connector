@@ -1,8 +1,8 @@
 import codecs
 import serial
 
-from interfaces import Writer
-from config import Config
+from serial_connector.interfaces import Writer
+from serial_connector.config import Config
 
 
 class Connector:

@@ -1,13 +1,16 @@
+#!/usr/bin/env python3
 from typing import List
 import threading
 import sys
 
+sys.path.append("~/.local/")
 
-from cli import flags, MODE_ONLY_OUT
-from connector import Connector
-from config import Config
-from output import create_output
-from user import User
+
+from serial_connector.cli import flags, MODE_ONLY_OUT
+from serial_connector.connector import Connector
+from serial_connector.config import Config
+from serial_connector.output import create_output
+from serial_connector.user import User
 
 threads: List[threading.Thread] = []
 config = Config(vars(flags))

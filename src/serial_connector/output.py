@@ -1,8 +1,7 @@
 import sys
 
-from cli import MODE_DIST, MODE_ONLY_OUT, MODE_SHELL
-from interfaces import Writer
-from constants import OUT_FILE
+from serial_connector.constants import *
+from serial_connector.interfaces import Writer
 
 def create_output(mode: str) -> Writer:
     out = None
