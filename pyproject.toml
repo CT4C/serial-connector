@@ -2,8 +2,12 @@
 requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
+[tool.townccrier]
+package = "serial_connector"
+package_dir = "src"
+
 [project]
-name = "serial-connector"
+name = "serial_connector"
 version = "0.0.1"
 authors = [
   { name = "Dmytro Prykhodko" }
