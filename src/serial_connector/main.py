@@ -20,7 +20,7 @@ user = User(config.port)
 
 err = connector.connect()
 if err != None:
-    print("[-] " + err)
+    print("[-]", err)
     sys.exit(1)
 
 
