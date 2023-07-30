@@ -36,7 +36,7 @@ class Connector:
                 data = codecs.decode(data, c.decode)
 
             if len(data) > 0:
-                writer.write(data)
+                writer.write(str(data))
 
 
     def write(self, data: str):
