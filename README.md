@@ -1,5 +1,11 @@
 # Serial Port Connector
 
+## Installation
+```
+pip install git+https://github.com/edpryk/serial-connector
+```
+---
+
 
 ## Description
 CLI tool to communicate with a serial port.\
